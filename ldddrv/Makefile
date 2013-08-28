@@ -8,11 +8,6 @@ KERNELDIR=~/dev/workspace/kernel/linux-3.4.56/
 ARCH=arm 
 CROSS_COMPILE=arm-linux-
 endif
-ifeq ($(MACH),MSM8660)
-KERNELDIR=~/dev/workspace/kernel/android_kernel_htc_msm8660
-ARCH=arm 
-CROSS_COMPILE=arm-eabi-
-endif
 else
 KERNELDIR=/lib/modules/$(shell uname -r)/build/
 ARCH=x86
