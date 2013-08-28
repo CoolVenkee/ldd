@@ -1,5 +1,6 @@
 # Object files
 *.o
+*.ko
 
 # Libraries
 *.lib
@@ -15,3 +16,9 @@
 *.exe
 *.out
 *.app
+
+# Auto genarating files
+*.mod.c
+*.order
+*.symvers
+*.pro.user 
