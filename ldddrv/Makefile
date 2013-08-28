@@ -4,7 +4,7 @@ ldddrv-objs := main.o globalmem.o globalfifo.o secondcdev.o globalfifoplatformdr
 
 ifdef MACH
 ifeq ($(MACH),S3C6410)
-KERNELDIR=~/dev/workspace/kernel/linux-3.4.56/
+KERNELDIR=~/dev/workspace/kernel/Linux-3.4.x/linux-3.4.56/
 ARCH=arm 
 CROSS_COMPILE=arm-linux-
 endif
