@@ -1,1 +1,0 @@
-cmd_/home/venkee/dev/workspace/ldd/ldddrv/ldddrv.ko := arm-linux-ld -EL -r  -T /home/venkee/dev/workspace/kernel/Linux-3.4.x/linux-3.4.56/scripts/module-common.lds --build-id  -o /home/venkee/dev/workspace/ldd/ldddrv/ldddrv.ko /home/venkee/dev/workspace/ldd/ldddrv/ldddrv.o /home/venkee/dev/workspace/ldd/ldddrv/ldddrv.mod.o
