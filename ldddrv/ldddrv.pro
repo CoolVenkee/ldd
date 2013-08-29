@@ -83,7 +83,8 @@ SOURCES += \
     ../../kernel/linux-3.4.56/drivers/misc/eeprom/at24.c \
     ../../kernel/linux-3.4.56/arch/arm/plat-samsung/devs.c \
     ../../kernel/linux-3.4.56/arch/arm/plat-samsung/platformdata.c \
-    ../../kernel/linux-3.4.56/drivers/input/touchscreen/ads7846.c
+    ../../kernel/linux-3.4.56/drivers/input/touchscreen/ads7846.c \
+    ../../kernel/linux-3.4.56/drivers/input/misc/pwm-beeper.c
 
 HEADERS += \
     ../../kernel/linux-3.4.56/drivers/i2c/i2c-core.h \
